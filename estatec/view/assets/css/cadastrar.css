@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2? family= Outfit:wght@400;500;600;700 & display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFF;
+    font-family: 'Outfit', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100vw;
+}
+
+section{
+    background-color: #D32222;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 6px 6px 8px 0px rgba(0, 0, 0, 0.25) inset;
+
+}
+
+section h1{
+    font-weight: 700;
+    font-size: 3rem;
+    color: #FFF;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+img{
+    margin-left: 10rem;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    font-size: 1.2rem;
+
+}
+
+.nome{
+    font-family: 'Outfit', sans-serif;
+    margin: 1em 0 1em 0;
+    position: relative;
+  }
+  
+  .nome input {
+    font-size: 100%;
+    padding: 0.8em;
+    outline: none;
+    border: 2px solid #FFF;
+    background-color: transparent;
+    border-radius: 20px;
+    width: 20vw;
+  }
+  
+  .nome label {
+    font-size: 100%;
+    position: absolute;
+    left: 0;
+    padding: 0.8em;
+    margin-left: 0.5em;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    color: rgb(255, 248, 248);
+  }
+  
+input:focus{
+    box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.25);
+}
+
+  .nome :is(input:focus, input:valid)~label {
+    transform: translateY(-50%) scale(.9);
+    margin: 0em;
+    margin-left: 1.3em;
+    padding: 0.4em;
+    background-color: #D32222;
+  }
+  
+  .nome :is(input:focus, input:valid) {
+    border-color: #fff;
+  }
+
+  input[type="text"]{
+    color: #FFF;
+  }
+  input[type="password"]{
+    color: #FFF;
+  }
+
+  .sobrenome{
+    font-family: 'Outfit', sans-serif;
+    margin: 1em 0 1em 0;
+    position: relative;
+  }
+  
+  .sobrenome input {
+    font-size: 100%;
+    padding: 0.8em;
+    outline: none;
+    border: 2px solid #FFF;
+    background-color: transparent;
+    border-radius: 20px;
+    width: 20vw;
+  }
+  
+  .sobrenome label {
+    font-size: 100%;
+    position: absolute;
+    left: 0;
+    padding: 0.8em;
+    margin-left: 0.5em;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    color: rgb(255, 248, 248);
+  }
+  
+input:focus{
+    box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.25);
+}
+
+  .sobrenome :is(input:focus, input:valid)~label {
+    transform: translateY(-50%) scale(.9);
+    margin: 0em;
+    margin-left: 1.3em;
+    padding: 0.4em;
+    background-color: #D32222;
+  }
+  
+  .sobrenome :is(input:focus, input:valid) {
+    border-color: #fff;
+  }
+
+  input[type="text"]{
+    color: #FFF;
+  }
+  input[type="password"]{
+    color: #FFF;
+  }
+
+.nome-sobrenome{
+    display: flex;
+    flex-direction: row;
+    gap: 1.8rem;
+}
+
+/* ----------------------------------- */
+
+.email{
+    font-family: 'Outfit', sans-serif;
+    margin: 1em 0 1em 0;
+    position: relative;
+  }
+  
+  .email input {
+    font-size: 100%;
+    padding: 0.8em;
+    outline: none;
+    border: 2px solid #FFF;
+    background-color: transparent;
+    border-radius: 20px;
+    width: 30vw;
+  }
+  
+  .email label {
+    font-size: 100%;
+    position: absolute;
+    left: 0;
+    padding: 0.8em;
+    margin-left: 0.5em;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    color: rgb(255, 248, 248);
+  }
+  
+input:focus{
+    box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.25);
+}
+
+  .email :is(input:focus, input:valid)~label {
+    transform: translateY(-50%) scale(.9);
+    margin: 0em;
+    margin-left: 1.3em;
+    padding: 0.4em;
+    background-color: #D32222;
+  }
+  
+  .email :is(input:focus, input:valid) {
+    border-color: #fff;
+  }
+
+  input[type="text"]{
+    color: #FFF;
+  }
+  input[type="password"]{
+    color: #FFF;
+  }
+
+  .rm{
+    font-family: 'Outfit', sans-serif;
+    margin: 1em 0 1em 0;
+    position: relative;
+  }
+  
+  .rm input {
+    font-size: 100%;
+    padding: 0.8em;
+    outline: none;
+    border: 2px solid #FFF;
+    background-color: transparent;
+    border-radius: 20px;
+    width: 10vw;
+  }
+  
+  .rm label {
+    font-size: 100%;
+    position: absolute;
+    left: 0;
+    padding: 0.8em;
+    margin-left: 0.5em;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    color: rgb(255, 248, 248);
+  }
+  
+input:focus{
+    box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.25);
+}
+
+  .rm :is(input:focus, input:valid)~label {
+    transform: translateY(-50%) scale(.9);
+    margin: 0em;
+    margin-left: 1.3em;
+    padding: 0.4em;
+    background-color: #D32222;
+  }
+  
+  .rm :is(input:focus, input:valid) {
+    border-color: #fff;
+  }
+
+  input[type="text"]{
+    color: #FFF;
+  }
+  input[type="password"]{
+    color: #FFF;
+  }
+
+.email-rm{
+    display: flex;
+    flex-direction: row;
+    gap: 1.7rem;
+}
+
+/* ---------------------------------------- */
+
+.senha{
+    font-family: 'Outfit', sans-serif;
+    margin: 1em 0 1em 0;
+    position: relative;
+  }
+  
+  .senha input {
+    font-size: 100%;
+    padding: 0.8em;
+    outline: none;
+    border: 2px solid #FFF;
+    background-color: transparent;
+    border-radius: 20px;
+    width: 20vw;
+  }
+  
+  .senha label {
+    font-size: 100%;
+    position: absolute;
+    left: 0;
+    padding: 0.8em;
+    margin-left: 0.5em;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    color: rgb(255, 248, 248);
+  }
+  
+input:focus{
+    box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.25);
+}
+
+  .senha :is(input:focus, input:valid)~label {
+    transform: translateY(-50%) scale(.9);
+    margin: 0em;
+    margin-left: 1.3em;
+    padding: 0.4em;
+    background-color: #D32222;
+  }
+  
+  .senha :is(input:focus, input:valid) {
+    border-color: #fff;
+  }
+
+  input[type="text"]{
+    color: #FFF;
+  }
+  input[type="password"]{
+    color: #FFF;
+  }
+
+  .confirmar-senha{
+    font-family: 'Outfit', sans-serif;
+    margin: 1em 0 1em 0;
+    position: relative;
+  }
+  
+  .confirmar-senha input {
+    font-size: 100%;
+    padding: 0.8em;
+    outline: none;
+    border: 2px solid #FFF;
+    background-color: transparent;
+    border-radius: 20px;
+    width: 20vw;
+  }
+  
+  .confirmar-senha label {
+    font-size: 100%;
+    position: absolute;
+    left: 0;
+    padding: 0.8em;
+    margin-left: 0.5em;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    color: rgb(255, 248, 248);
+  }
+  
+input:focus{
+    box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.25);
+}
+
+  .confirmar-senha :is(input:focus, input:valid)~label {
+    transform: translateY(-50%) scale(.9);
+    margin: 0em;
+    margin-left: 1.3em;
+    padding: 0.4em;
+    background-color: #D32222;
+  }
+  
+  .confirmar-senha :is(input:focus, input:valid) {
+    border-color: #fff;
+  }
+
+  input[type="text"]{
+    color: #FFF;
+  }
+  input[type="password"]{
+    color: #FFF;
+  }
+
+.senha-confirmar{
+    display: flex;
+    flex-direction: row;
+    gap: 1.8rem;
+}
+
+.cadastrar{
+    background-color: #fff;
+    color: #D32222;
+    font-weight: 700;
+    width: 9rem;
+    height: 2.5rem;
+    font-size: 18px;
+    padding: 0;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+}
+
+.cadastrar:hover{
+    transform: translateY(-2px);
+}
+
+a{
+    text-decoration: none;
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 18px;
+}
+    a:hover{
+        transform: translateY(-2px);
+    }
+
+.linha{
+    background-color: #FFF; 
+    height: 0.09rem;
+    width: 60%;
+    margin-top: 5rem;
+}
+
+
+
+
+

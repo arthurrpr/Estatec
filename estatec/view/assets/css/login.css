@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #FFF;
+    font-family: 'Inter', sans-serif;
+    color: #FFF;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    max-width: 100vw;
+}
+
+section{
+    background-color: #D32222;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 6px 6px 8px 0px rgba(175, 29, 29, 0.23) inset;
+}
+
+
+section h1{
+    font-weight: 700;
+    font-size: 3rem;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+section p{
+    width: 55%;
+    margin-top: 1rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: justify;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    margin-top: 3rem;
+    align-items: center;
+}
+
+.enviar{
+    background-color: #fff;
+    color: #D32222;
+    font-weight: 700;
+    width: 6rem;
+    height: 2.5rem;
+    font-size: 18px;
+    padding: 0;
+    margin-bottom: 3rem;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    transform: translateY(-2px);
+}
+
+input::placeholder{
+    color: #B8B8B8;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+input{
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    width: 21.125rem;
+    height: 2.75rem;
+    padding-left: 1.2rem;
+}
+
+a{
+    text-decoration: none;
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 2rem;
+    font-size: 18px;
+}
+
+.linha{
+    background-color: #FFF; 
+    height: 0.09rem;
+    width: 60%;
+    margin-top: 5rem;
+}
+
+img{
+    margin-left: 10rem;
+}
+
+.inputGroup {
+    font-family: 'Outfit', sans-serif;
+    margin: 1em 0 1em 0;
+    position: relative;
+  }
+  
+  .inputGroup input {
+    font-size: 100%;
+    padding: 0.8em;
+    outline: none;
+    border: 2px solid #FFF;
+    background-color: transparent;
+    border-radius: 20px;
+    width: 20vw;
+  }
+  
+  .inputGroup label {
+    font-size: 100%;
+    position: absolute;
+    left: 0;
+    padding: 0.8em;
+    margin-left: 0.5em;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    color: rgb(255, 248, 248);
+  }
+  
+input:focus{
+    box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.25);
+}
+
+  .inputGroup :is(input:focus, input:valid)~label {
+    transform: translateY(-50%) scale(.9);
+    margin: 0em;
+    margin-left: 1.3em;
+    padding: 0.4em;
+    background-color: #D32222;
+  }
+  
+  .inputGroup :is(input:focus, input:valid) {
+    border-color: #fff;
+  }
+
+  input[type="text"]{
+    color: #FFF;
+  }
+  input[type="password"]{
+    color: #FFF;
+  }

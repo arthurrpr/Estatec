@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+body{
+    background: #FFF;
+    height: 100vh;
+    margin: 0;
+    overflow-y: hidden;
+  }
+  
+  header{
+    font-family: 'Inter', sans-serif;
+    color: #FFF;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    -webkit-box-shadow: 2px 3px 29px -15px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 3px 29px -15px rgba(0,0,0,0.75);
+    box-shadow: 2px 3px 29px -15px rgba(0,0,0,0.75);
+    background: #FFFFFF;
+    top: 0;
+}
+
+.logo-etec{
+    margin-left: 30%;
+    width: 100%;
+}
+
+.header-links{
+    margin-left: 60%;
+    display: flex;
+    gap: 3.2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-links a{
+    color: #0A0A0A;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.header-links a:hover{
+    transform: translateY(-1.5px);
+}
+
+.header-links button{
+    background-color: #D32222;
+    border: none;
+    width: 110px;
+    height: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.header-links button a{
+    color: #FFF;
+}
+
+.header-links button{
+    transform: translateY(-4px);
+}
+
+main{
+    font-family: 'Inter', sans-serif;
+}
+    main h1{
+        padding-top: 6rem;
+        text-align: center;
+        margin-top: 3rem;
+        font-size: 36px;
+        color: #0A0A0A;
+        text-decoration-line: underline;
+    }
+
+.info{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    margin-top: 3rem;
+}
+
+.enviar-curriculo{
+    background: #E0E0E0;
+    box-shadow: 8px 8px 4px 0px rgba(0, 0, 0, 0.25);    
+    margin-left: 8rem;
+    margin-top: 2rem;
+    width: 35vw;
+    height: 60vh;
+    border-radius: 16px;
+}
+    .enviar-curriculo h2{
+        color: #cc0000;
+        font-weight: 700;
+        font-size: 30px;
+        margin-top: 3rem;
+        text-align: center;
+    }
+
+form label{
+    font-weight: 600;
+    font-size: 24px;
+}
+
+form p{
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 6rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    width: 30vw;
+}
+
+.pdf{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+    .pdf button{
+        width: 8vw;
+        height: 3.5vh;
+        font-size: 18px;
+        font-weight: 600;
+        border-radius: 6px;
+        border: none;
+        background-color: #cc0000;
+        color: #FFF;
+        cursor: pointer;
+        margin-top: 1.5rem;
+    }
+    .pdf button:hover {
+        background-color: #a00000;
+        transform: translateY(-1px);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        transition: background-color 0.3s ease;
+      }
+      .button-voltar {
+        font-family: 'Inter', sans-serif;
+        background-color: #cc0000;
+        color: #fff;
+        width: 18vw;
+        text-align: center;
+        padding: 12px 20px;
+        font-size: 1.2rem;
+        font-weight: bold;
+        text-decoration: none;
+        border-radius: 8px;
+        display: block;
+        margin: 0 auto;
+      }
+        .button-voltar:hover {
+          background-color: #a00000;
+          transition: background-color 0.3s ease;
+      }

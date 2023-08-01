@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+:root {
+    --vade-main:linear-gradient(90deg, rgba(211,34,34,1) 0%, rgba(235,25,25,1) 100%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 102vh;
+    background-repeat: inherit;
+    max-width: 100vw;
+    width: 100%
+
+}
+
+header{
+    font-family: 'Inter', sans-serif;
+    color: #FFF;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    -webkit-box-shadow: 2px 3px 29px -15px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 3px 29px -15px rgba(0,0,0,0.75);
+    box-shadow: 2px 3px 29px -15px rgba(0,0,0,0.75);
+    background: #FFFFFF;
+}
+
+.logo-etec{
+    margin-left: 30%;
+    width: 100%;
+}
+
+.header-links{
+    margin-left: 60%;
+    display: flex;
+    gap: 3.2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-links a{
+    color: #0A0A0A;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.header-links a:hover{
+    transform: translateY(-1.5px);
+}
+
+.header-links button{
+    background-color: #D32222;
+    border: none;
+    width: 110px;
+    height: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.header-links button a{
+    color: #FFF;
+}
+
+.header-links button{
+    transform: translateY(-4px);
+}
+
+main{
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: row;
+    height: 95vh;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: #FFFFFF;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+.info img{
+    width: 55%;
+    margin-top: 0;
+}
+
+main span {
+    background: var(--vade-main);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    text-shadow: none;
+}
+
+main h1{
+    font-weight: 700;
+    font-size: 3em;
+    width: 45rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+main p{
+    font-weight: 500;
+    font-size: 2em;
+    text-align: justify;
+    width: 40rem;
+    margin-left: 1.7rem;
+}
+
+.text-main{
+    display: flex;
+    flex-direction: column;
+    color: #0A0A0A;
+}
+
+main img{
+    margin-left: 5rem;
+    margin-top: 6rem;
+}
+
+section{
+    background-color: #D32222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 100vw;
+    width: 100%;
+    box-shadow: inset 0px 6px 6px rgba(0, 0, 0, 0.25);
+    padding: 4.5rem 0;
+}
+
+section h1{
+    color: #FFF;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 400;
+    font-size: 3.125rem;
+}
+
+section p{
+    color: #FFF;
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    text-align: center;
+    font-size: 22px; 
+    font-weight: 400;
+    width: 33.8vw;
+    margin-top: 1rem;
+}
+
+/*----------FOOTER---------------*/
+
+footer{
+    background-color: #212529;
+    color: #EBEBEB;
+    max-width: 100vw;
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Open Sans', sans-serif;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+    box-shadow: 0px 6px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+.contacts-title{
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.local-footer{
+    color: #CCCCCC;
+    font-weight: 600;
+}
+
+.numbers-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    color: #CCCCCC;
+    margin-left: 12%;
+    margin-top: 1.5%;
+    font-weight: 600;
+}

@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+body{
+    background: #FFF;
+    margin: 0;
+  }
+  
+  header{
+    font-family: 'Inter', sans-serif;
+    color: #FFF;
+    width: 100vw;
+    top: 0;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    -webkit-box-shadow: 2px 3px 29px -15px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 3px 29px -15px rgba(0,0,0,0.75);
+    box-shadow: 2px 3px 29px -15px rgba(0,0,0,0.75);
+    background: #FFFFFF;
+}
+
+.logo-etec{
+    margin-left: 30%;
+    width: 100%;
+}
+
+.header-logo{
+    margin-left: 8%;
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #FFF;
+    text-decoration: none;
+}
+
+.header-links{
+    margin-left: 60%;
+    display: flex;
+    gap: 3.2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-links a{
+    color: #0A0A0A;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.header-links a:hover{
+    transform: translateY(-1.5px);
+}
+
+.header-links button{
+    background-color: #D32222;
+    border: none;
+    width: 110px;
+    height: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.header-links button a{
+    color: #FFF;
+}
+
+.header-links button{
+    transform: translateY(-4px);
+}
+  
+  .fundoestagio{
+    background-color: #FFF;
+  }
+
+main{
+  height: 95vh;
+  width: 100vw;
+}
+
+table {
+  width: 85%;
+  border-collapse: collapse;
+  margin: auto;
+  margin-bottom: 3rem;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 8px;
+}
+
+thead {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #D32222;
+  color: #fff;
+}
+
+thead th {
+  padding: 12px;
+  font-weight: 600;
+  text-align: left;
+}
+
+tbody tr:nth-of-type(even) {
+  background-color: #f2f2f2;
+}
+
+tbody td {
+  padding: 12px;
+}
+
+.editar-excluir{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.editar-excluir button{
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  border: none;
+  background-color: #D32222;
+  cursor: pointer;
+}
+  .editar-excluir button:hover{
+    transform: translateY(-2px);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  padding-top: 6%;
+  padding-bottom: 2%;
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 3rem;
+  color: #0A0A0A;
+  text-decoration-line: underline;
+  }
+
+.button {
+  font-family: 'Inter', sans-serif;
+  background-color: #cc0000;
+  color: #fff;
+  width: 16vw;
+  text-align: center;
+  padding: 12px 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto;
+}
+
+.button:hover {
+  background-color: #b71c1c;
+  transition: background-color 0.3s ease;
+
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0 10px;
+  }
+}
+
+.filtro{
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+    .filtro-container {
+        font-weight: bold;
+        margin-right: 10px;
+        color:#0A0A0A;
+        font-family: 'Inter', sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+        padding-bottom: 3rem;
+    }
+
+/* Estilo base para o select */
+select {
+  appearance: none;
+  background-color: #f2f2f2;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 14px;
+  color: #555555;
+  width: 200px;
+  cursor: pointer;
+}
+
+/* Estilo quando o select está aberto */
+select:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #3366ff;
+}
+
+/* Estilo para as opções */
+select option {
+  background-color: #ffffff;
+  color: #555555;
+}
+
+/* Estilo para a seta do select */
+select::-ms-expand {
+  display: none;
+}
+
+/* Estilo para navegadores Firefox */
+@-moz-document url-prefix() {
+  select {
+    padding-right: 25px;
+    background-image: url('seta-select.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 20px;
+  }
+}
+
+  
+  

@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+body{
+    background: #FFF;
+    max-height: 100vh;
+    height: 100%;
+    margin: 0;
+  }
+  
+  header{
+    font-family: 'Inter', sans-serif;
+    color: #FFF;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    -webkit-box-shadow: 2px 3px 29px -15px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 3px 29px -15px rgba(0,0,0,0.75);
+    box-shadow: 2px 3px 29px -15px rgba(0,0,0,0.75);
+    background: #FFFFFF;
+}
+
+.logo-etec{
+    margin-left: 30%;
+    width: 100%;
+}
+
+.header-logo{
+    margin-left: 8%;
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #FFF;
+    text-decoration: none;
+}
+
+.header-links{
+    margin-left: 60%;
+    display: flex;
+    gap: 3.2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-links a{
+    color: #0A0A0A;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.header-links a:hover{
+    transform: translateY(-1.5px);
+}
+
+.header-links button{
+    background-color: #D32222;
+    border: none;
+    width: 110px;
+    height: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.header-links button a{
+    color: #FFF;
+}
+
+.header-links button{
+    transform: translateY(-4px);
+}
+
+main{
+    font-family: 'Inter', sans-serif;
+}
+
+main h1{
+    padding-top: 3rem;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 36px;
+    color: #0A0A0A;
+    text-decoration-line: underline;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 7rem;
+    border-radius: 16px;
+    background: #E0E0E0;
+    box-shadow: 6px 6px 6px 0px rgba(0, 0, 0, 0.50);
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+}
+
+main img{
+    margin-left: 10rem;
+}
+
+.estagio-details{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+input[type="text"],
+textarea,
+input[type="date"] {
+  padding: 10px;
+  resize: none;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+input[type="text"]:focus,
+  textarea:focus,
+  input[type="date"]:focus {
+    outline: none;
+    box-shadow: 0px 3px 6px rgba(204, 0, 0, 0.4);
+  }
+  
+form input::placeholder{
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+}
+form textarea::placeholder{
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+}
+
+.nome{
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+}
+
+.assunto{
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+}
+
+.data-validade{
+    display: flex;
+    flex-direction: column;
+    width: 8vw;
+}
+
+.assunto-validade{
+    display: flex;
+    flex-direction: row;
+    gap: 2.5rem;
+}
+
+.categoria-requisitos{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.categoria{
+    display: flex;
+    flex-direction: column;
+    width: 10vw;
+}
+
+.requisitos{
+    display: flex;
+    flex-direction: column;
+    width: 23.5vw;
+}
+
+.carga-horaria{
+    display: flex;
+    flex-direction: column;
+}
+
+.atividades{
+    display: flex;
+    flex-direction: column;
+}
+
+.salario{
+    display: flex;
+    flex-direction: column;
+}
+
+.atualizar{
+    font-size: 18px;
+    font-weight: 600;
+    width: 6.5vw;
+    height: 3.5vh;
+    background-color: #D32222;
+    border: none;
+    color: #FFF;
+    border-radius: 6px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+    .atualizar:hover{
+        transform: translateY(-2px);
+        background-color: #AF1D1D;
+    }
+
+.back{
+    margin-top: 2rem;
+    width: 15vw;
+    height: 4.5vh;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    background-color: #D32222;
+    border-radius: 6px;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+    .back a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .back:hover{
+        transform: translateY(-2px);
+        background-color: #AF1D1D;
+    }
+
+  
